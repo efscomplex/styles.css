@@ -1,5 +1,5 @@
 {
-   "name": "styles",
+   "name": "@efsdev/styles.css",
    "version": "1.0.0",
    "main": "dist/min.css",
    "license": "MIT"
