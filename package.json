@@ -1,6 +1,7 @@
 {
    "name": "@efsdev/styles.css",
+   "private": true,
    "version": "1.0.0",
-   "main": "dist/min.css",
+   "main": "dist/index.css",
    "license": "MIT"
 }
