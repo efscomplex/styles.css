@@ -1,0 +1,28 @@
+// dark theme
+$dark-bg: #333
+$dark-surface: #555
+$dark-color: #ffffffc9
+
+// light theme
+$light-bg: #fff
+$light-surface: #e2e2e2
+$light-color: #111
+
+:root
+  --surface_br: 7px
+  --primary: #1C8EDB
+  --onPrimary: #fff
+@media (prefers-color-scheme: dark) 
+  :root
+    --bg: #{$dark-bg}
+    --surface:#{$dark-surface}
+    --color: #{$dark-color}
+
+@media (prefers-color-scheme: light) 
+  :root 
+    --bg: #{$light-bg}
+    --surface:#{$light-surface}
+    --color: #{$light-color}
+html
+  background-color: var(--bg)
+  color: var(--color)
